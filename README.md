@@ -22,3 +22,7 @@ torii provider setup aws readonly
 | `kubectl` | 0.1.0 | `readonly` |
 
 O catálogo consumido pelo Torii está em [`index.yaml`](index.yaml). Os archives publicados em GitHub Releases são verificados por SHA-256 antes da extração.
+
+## Licença
+
+O catálogo e seus pacotes são distribuídos exclusivamente sob a [GNU Affero General Public License v3.0](LICENSE), identificador SPDX `AGPL-3.0-only`.
