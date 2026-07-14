@@ -1,0 +1,13 @@
+version: "1"
+providers:
+  - name: aws
+    version: "0.1.0"
+    description: AWS CLI com autenticação temporária e setup operacional readonly.
+    source: https://github.com/torii-mcp/torii-canon-providers/releases/download/v0.1.0/aws-0.1.0.zip
+    sha256: 3c8826f7a1d6e9674a71f123bdc94f362fa0f3ef65af5af1c83c6f65722eb8a5
+
+  - name: kubectl
+    version: "0.1.0"
+    description: kubectl target-aware com setup readonly para observação de workloads.
+    source: https://github.com/torii-mcp/torii-canon-providers/releases/download/v0.1.0/kubectl-0.1.0.zip
+    sha256: fb8eebff222a0dbb31388816b05b1fcf9780924125b616c6d4944bd8a8a5b2a8
